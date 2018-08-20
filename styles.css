@@ -1,0 +1,91 @@
+body {
+    background: url('images/background.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+#container {
+    width: 630px;
+    margin: 0 auto;
+
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: solid 1px white;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none; /*removes bullet points from unordered list! magical.*/
+    padding: 0;
+    margin: 0;
+} 
+
+nav ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:visited {
+  color: white;  
+}
+
+a:hover {
+    color: #ffea00;
+}
+
+#tagline {
+    text-align: center;
+    margin: 50px 0 0px;
+}
+
+#tagline h1 {
+    margin-bottom: 160px;
+}
+
+#tagline h1 em {
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+}
+
+a.button {
+    display: block;
+    height: 86px;
+    width: 305px;
+    background: url('images/button-background.png') top left no-repeat;
+    margin: 0 auto;
+    color: black;
+    font-size: 18px;
+    line-height: 86px;
+}
+
+a.button:hover {
+    color: white;
+    text-shadow: 0 1px 5px #333;
+
+}
+
+a.button:active {
+    position:relative;
+    top: 1px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 150px;
+}
